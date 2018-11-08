@@ -32,8 +32,8 @@ p,cite,code,ul {
 	font-size: 1.2em;
 	padding-bottom: 1.2em;
 }
-h1 {
-	font-size: 1.4em;
+h2 {
+	font-size: 2.25em;
 	margin-bottom: 4px;
 }
 code {
@@ -81,11 +81,16 @@ h1,h2,h3 {
 
 /* title */
 .title {
-	padding: 32px;
+	padding-left: 30px;
 }
 .title h1 {
 	color: #E4DBCF;
 	font: normal 3.4em "Lucida Sans Unicode","Trebuchet MS",sans-serif;
+}
+
+.title h2 {
+	color: #E4DBCF;
+	font: normal 2em "Lucida Sans Unicode","Trebuchet MS",sans-serif;
 }
 
 /* navigation */
@@ -114,7 +119,13 @@ h1,h2,h3 {
 	clear: both;
 	padding: 0 10px 12px 28px;
 }
-
+#cheese {
+			float:left;
+			display:block;
+			padding:20px;
+			max-width:350px; 
+			/*width:33%;*/ 
+		}
 /* sub navigation */
 .sidenav {
 	float: right;

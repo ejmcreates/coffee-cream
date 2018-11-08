@@ -8,7 +8,7 @@
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
-<title>Coffee N Cream</title>
+<title><?=$title?></title>
 </head>
 
 <body>
@@ -18,16 +18,17 @@
 	<div class="header">
 				
 		<div class="title">
-			<h1>Coffee N Cream</h1>
+			<h1><?=$siteName?></h1>
+            <h2><?=$slogan?></h2>
 		</div>
 
 	</div>
 
 	<div class="navigation">
-			<a href="index.php">HOME</a>
-			<a href="order.php">ORDER</a>
-			<a href="contact.php">CONTACT USWelcome to my </a>
-			<a href="index.html">Maecenas</a>
+			<a href="index.php">Home</a>
+			<a href="order.php">Order</a>
+            <a href="daily.php">Daily Specials</a>
+			<a href="contact.php">Contact Us</a>
 			<a href="index.html">Sodales</a>
 			<div class="clearer"><span></span></div>
 		</div>
