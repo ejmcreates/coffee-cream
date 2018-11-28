@@ -1,4 +1,4 @@
-<?php include 'config.php';?>
+<?php include 'includes/config.php';?>
 <?php 
    if(isset($_GET['day'])){//if day is passed via GET, show $day's coffee
         $today = $_GET['day'];
@@ -61,10 +61,7 @@ switch($today){
 }
 
 ?>
-<?php include 'header.php';?>
-
-<h2>See all our daily specials!!</h2>
-
+<?php include 'includes/header.php';?>
 
 <p><?=$today?>'s Special is <?=$cheese?></p>
 
@@ -83,4 +80,4 @@ switch($today){
 
         
 
-<?php include 'footer.php';?>
+<?php include 'includes/footer.php';?>

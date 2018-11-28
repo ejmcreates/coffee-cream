@@ -1,5 +1,5 @@
-<?php include 'config.php';?>
-<?php include 'header.php';?>
+<?php include 'includes/config.php';?>
+<?php include 'includes/header.php';?>
 
 <?php
     
@@ -59,7 +59,7 @@ mail($to, $subject, $message, $headers);
    
 ?>           
 
-<?php include 'footer.php';
+<?php include 'includes/footer.php';
 
 function process_post()
 {//loop through POST vars and return a single string
